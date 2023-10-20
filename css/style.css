@@ -3,7 +3,7 @@
 }
 
 .container .img {
-    background-image: url(/images/image-product-desktop.jpg);
+    background-image: url(https://ahmedfathy123.github.io/product-preview-card/images/image-product-desktop.jpg);
     background-size: cover;
     width: 300px;
     height: 470px;
@@ -135,14 +135,7 @@
         width: 233px;
     }
 
-    .container .information .price {}
-
-    .container .information .price .new-price {}
-
-    .container .information .price .old-price {}
-
-    .container .information button {}
-
+   
 
     /* end information */
 
