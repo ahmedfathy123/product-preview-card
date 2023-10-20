@@ -1,0 +1,157 @@
+.container {
+    display: flex;
+}
+
+.container .img {
+    background-image: url(/images/image-product-desktop.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 470px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+/* start information */
+.container .information {
+
+    padding-left: 30px;
+    padding-top: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    width: 300px;
+    height: 470px;
+}
+
+.container .information .Perfume {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%);
+}
+
+.container .information h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+    color: hsl(212, 21%, 14%);
+    width: 250px;
+}
+
+.container .information p {
+
+
+    width: 190px;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.container .information .price {
+    display: flex;
+}
+
+.container .information .price .new-price {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+}
+
+.container .information .price .old-price {
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    margin-top: 12px;
+    margin-left: 20px;
+    text-decoration: line-through;
+
+}
+
+.container .information button {
+    margin-top: 30px;
+    width: 80%;
+    height: 45px;
+    border: none;
+    background-color: rgba(60, 128, 103);
+    font-family: 'Montserrat', sans-serif;
+
+    border-radius: 10px;
+    color: white;
+
+}
+
+.container .information button:hover {
+    background-color: hsl(158, 36%, 30%);
+
+
+}
+
+
+
+
+
+
+/* end information */
+
+/* start mobile-design */
+@media(max-width:480px) {
+    .container {
+        display: block;
+    }
+
+    .container .img {
+
+
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+
+
+    }
+
+    /* start information */
+    .container .information {
+
+        padding-left: 30px;
+        padding-top: 30px;
+
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+
+
+    }
+
+    .container .information .Perfume {
+        font-size: 12px;
+    }
+
+    .container .information h1 {
+        font-size: 30px;
+    }
+
+    .container .information p {
+        width: 233px;
+    }
+
+    .container .information .price {}
+
+    .container .information .price .new-price {}
+
+    .container .information .price .old-price {}
+
+    .container .information button {}
+
+
+    /* end information */
+
+
+
+
+}
+
+
+
+
+/* end mobile-design */
